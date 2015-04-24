@@ -1,0 +1,13 @@
+CONTIKI_PROJECT = zcl-example
+all: $(CONTIKI_PROJECT)
+
+APPS = zcl
+
+HAVE_BANKING=1
+UIP_CONF_IPV6=1
+UIP_CONF_RPL=1
+
+PROJECT_SOURCEFILES += device.c
+
+CONTIKI = ..
+include $(CONTIKI)/Makefile.include

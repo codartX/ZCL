@@ -1,0 +1,8 @@
+zcl_src = zcl_attr.c zcl_msg.c zcl.c zcl_cluster.c \
+          basic.c alarms.c \
+          commissioning.c groups.c \
+          identify.c io_value.c \
+          level_ctrl.c on_off.c \
+          on_off_switch.c pwr_cfg.c \
+          rssi_loc.c scenes.c \
+          temp_cfg.c time.c   
